@@ -64,9 +64,11 @@ By default, when you create a distribution from the backedup image, it will by d
 
 * Inside your distribution, open `/etc/wsl.conf`
 * Add the following lines inside it:
+    > ```
     > [user]
     >
     > default=username_you_would_like_to_use
+    > ```
 * Then shutdown the distribution for the changes to take effect:
     ```
     wsl --terminate new-distro-name
